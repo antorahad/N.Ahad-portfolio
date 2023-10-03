@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N.Ahad portfolio website</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.8.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-slate-200">
+    <header class="container mx-auto">
+        <nav class="navbar bg-[] px-[30px] py-[25px] flex items-center justify-between">
+            <a href="index.html" class="text-[30px] text-[#9376E0] font-bold">N.Ahad</a>
+            <ul class="hidden lg:flex items-center gap-5 text-[20px] text-[#171717] font-[600]">
+                <li class="hover:text-[#9376E0] duration-300"><a href="#home">Home</a></li>
+                <li class="hover:text-[#9376E0] duration-300"><a href="#about">About</a></li>
+                <li class="hover:text-[#9376E0] duration-300"><a href="#services">Services</a></li>
+                <li class="hover:text-[#9376E0] duration-300"><a href="#portfolio">Portfolio</a></li>
+                <li class="hover:text-[#9376E0] duration-300"><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="dropdown dropdown-bottom dropdown-end flex items-center lg:hidden">
+                <label tabindex="0" id="menu-btn" class="fa-solid fa-bars-staggered m-1 text-[#9376E0] text-[30px]"></label>
+                <ul tabindex="0"
+                    class="dropdown-content z-[1] p-4 shadow-md bg-[#171717] rounded-md w-52 md:w-60 text-center">
+                    <li
+                        class="hover:bg-[#9376E0] hover:text-[#f6f6f6] hover:rounded-md focus:bg-[#9376E0] focus:text-[#f6f6f6] focus:rounded-md p-2 text-[#f6f6f6] text-[18px] md:text-[20px] font-[600]">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li
+                        class="hover:bg-[#9376E0] hover:text-[#f6f6f6] hover:rounded-md focus:bg-[#9376E0] focus:text-[#f6f6f6] focus:rounded-md p-2 text-[#f6f6f6] text-[18px] md:text-[20px] font-[600]">
+                        <a href="#about">About</a>
+                    </li>
+                    <li
+                        class="hover:bg-[#9376E0] hover:text-[#f6f6f6] hover:rounded-md focus:bg-[#9376E0] focus:text-[#f6f6f6] focus:rounded-md p-2 text-[#f6f6f6] text-[18px] md:text-[20px] font-[600]">
+                        <a href="#services">Services</a>
+                    </li>
+                    <li
+                        class="hover:bg-[#9376E0] hover:text-[#f6f6f6] hover:rounded-md focus:bg-[#9376E0] focus:text-[#f6f6f6] focus:rounded-md p-2 text-[#f6f6f6] text-[18px] md:text-[20px] font-[600]">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li
+                        class="hover:bg-[#9376E0] hover:text-[#f6f6f6] hover:rounded-md focus:bg-[#9376E0] focus:text-[#f6f6f6] focus:rounded-md p-2 text-[#f6f6f6] text-[18px] md:text-[20px] font-[600]">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="home" class="flex flex-col lg:flex-row items-center justify-between h-[100vh] px-[30px] max-w-6xl mx-auto">
+            <div class="text-center text-[#171717] space-y-3 my-[30px] lg:my-0">
+                <h1 class="text-[30px] md:text-[50px] lg:text-[55px] font-bold">Hi I'm <span class="text-[#9376E0]">Nur Ahad</span></h1>
+                <p class="text-[30px] font-bold"><span class="text-[#9376E0]">Frontend</span> Web Developer</p>
+                <p class="text-[25px] font-bold">Based on <span class="text-[#9376E0]">Bangladesh</span></p>
+                <div>
+                    <button class="btn bg-[#9376E0] hover:bg-[#9376E0] text-[#f6f6f6] px-[29px] my-[20px]">Hire
+                        Me</button>
+                </div>
+                <div class="text-[#171717] text-[25px] flex items-center justify-center gap-3">
+                    <div
+                        class="hover:bg-[#9376E0] hover:text-[#f6f6f6] duration-300 w-[40px] h-[40px] flex items-center justify-center rounded-full">
+                        <a href="https://www.linkedin.com/in/nur-ahad-ba55a8250/"><i
+                                class="fa-brands fa-linkedin"></i></a></div>
+                    <div
+                        class="hover:bg-[#9376E0] hover:text-[#f6f6f6] duration-300 w-[40px] h-[40px] flex items-center justify-center rounded-full">
+                        <a href="https://dribbble.com/Gneahadsarker"><i class="fa-solid fa-basketball"></i></a></div>
+                    <div
+                        class="hover:bg-[#9376E0] hover:text-[#f6f6f6] duration-300 w-[40px] h-[40px] flex items-center justify-center rounded-full">
+                        <a href="https://github.com/antorahad"><i class="fa-brands fa-github"></i></a></div>
+                    <div
+                        class="hover:bg-[#9376E0] hover:text-[#f6f6f6] duration-300 w-[40px] h-[40px] flex items-center justify-center rounded-full">
+                        <a href="https://www.facebook.com/ahad.sarker374549/"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="p-3 lg:p-0">
+                <img src="./images/banner-image.jpg" class="w-[100%] h-auto md:w-[100%] md:h-[300px] lg:w-[400px] lg:h-[400px] rounded-full">
+            </div>
+        </div>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+
+</html>
